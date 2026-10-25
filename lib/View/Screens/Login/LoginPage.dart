@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:chatapp/Model/Model/CountryModel.dart';
-import 'package:chatapp/View/Screens/NewScreen/CountryPage.dart';
+import 'package:chatapp/View/Screens/SignUp/CountryPage.dart';
 import 'package:chatapp/View/Screens/Login/SignUp/OtpScreen.dart';
 import 'package:chatapp/ViewModel/UserViewModel.dart';
 import 'package:flutter/material.dart';

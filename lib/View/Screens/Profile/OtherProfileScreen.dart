@@ -2,8 +2,8 @@
 
 import 'package:chatapp/Model/Model/ChatModel.dart';
 import 'package:chatapp/Model/Model/ChatterModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
-import 'package:chatapp/Resources/friend.dart';
+import 'package:chatapp/Util/app_urls.dart';
+import 'package:chatapp/Util/friend.dart';
 import 'package:chatapp/View/Screens/Conversation/ConversationScreen.dart';
 import 'package:chatapp/View/Screens/Profile/Tabs/FileTab.dart';
 import 'package:chatapp/View/Screens/Profile/Tabs/ImageTab.dart';

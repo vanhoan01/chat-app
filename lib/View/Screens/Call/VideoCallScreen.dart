@@ -7,13 +7,13 @@ import 'package:agora_rtc_engine/rtc_engine.dart';
 import 'package:agora_rtc_engine/rtc_local_view.dart' as RtcLocalView;
 // ignore: library_prefixes
 import 'package:agora_rtc_engine/rtc_remote_view.dart' as RtcRemoteView;
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/ViewModel/CallViewModel.dart';
 import 'package:chatapp/ViewModel/ChatPage/ChatMessagesViewModel.dart';
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
 
-import '../../../Resources/settings.dart';
+import '../../../Util/settings_call.dart';
 
 //https://www.thegioididong.com/game-app/cach-goi-video-tren-facebook-messenger-bang-dien-1262983
 //https://navoki.com/how-video-call-works-in-flutter-explained/

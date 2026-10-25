@@ -5,7 +5,7 @@ import 'package:chatapp/Model/Model/ChatterModel.dart';
 import 'package:chatapp/View/Components/CustomUI/ButtonCard.dart';
 import 'package:chatapp/View/Components/CustomUI/ContactCard.dart';
 import 'package:chatapp/View/Screens/Group/CreateGroup.dart';
-import 'package:chatapp/View/Screens/SearchScreen.dart';
+import 'package:chatapp/View/Screens/Search/SearchScreen.dart';
 import 'package:chatapp/Data/Services/network_handler.dart';
 import 'package:flutter/material.dart';
 

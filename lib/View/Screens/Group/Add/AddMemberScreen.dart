@@ -6,7 +6,7 @@ import 'package:chatapp/Model/Model/ChatterModel.dart';
 import 'package:chatapp/View/Components/CustomUI/AvtarCard.dart';
 import 'package:chatapp/View/Components/CustomUI/ContactCard.dart';
 import 'package:chatapp/View/Screens/Conversation/ConversationScreen.dart';
-import 'package:chatapp/View/Screens/SearchScreen.dart';
+import 'package:chatapp/View/Screens/Search/SearchScreen.dart';
 import 'package:chatapp/Data/Services/network_handler.dart';
 import 'package:chatapp/ViewModel/ChatPage/ChatMessagesViewModel.dart';
 import 'package:chatapp/ViewModel/ConversationViewModel.dart';

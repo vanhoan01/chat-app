@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:chatapp/Model/Model/userModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Screens/Image/ImageViewScreen.dart';
 import 'package:chatapp/View/Screens/Profile/Screens/BiographyEditScreen.dart';
 import 'package:chatapp/View/Screens/Profile/Screens/ChatIDEditScreen.dart';

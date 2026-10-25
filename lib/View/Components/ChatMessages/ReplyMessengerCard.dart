@@ -2,7 +2,7 @@
 
 import 'package:chatapp/Model/Model/ChatMessagesModel.dart';
 import 'package:chatapp/Model/Model/ReactModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Components/ChatMessages/Compoments/MessagesAudioView.dart';
 import 'package:chatapp/View/Components/ChatMessages/Compoments/MessagesCallView.dart';
 import 'package:chatapp/View/Components/ChatMessages/Compoments/MessagesFileView.dart';

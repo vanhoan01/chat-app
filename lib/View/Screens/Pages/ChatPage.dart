@@ -5,14 +5,13 @@ import 'package:chatapp/Model/List/ListChatterModel.dart';
 import 'package:chatapp/Model/List/ListConversationModel.dart';
 import 'package:chatapp/Model/Model/ChatModel.dart';
 import 'package:chatapp/Model/Model/userModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Components/CustomUI/CustomCard.dart';
 import 'package:chatapp/View/Screens/Camera/CameraPage.dart';
 import 'package:chatapp/View/Screens/Group/SelectContact.dart';
 import 'package:chatapp/View/Screens/Login/LoginScreen.dart';
-import 'package:chatapp/View/Screens/SearchScreen.dart';
+import 'package:chatapp/View/Screens/Search/SearchScreen.dart';
 import 'package:chatapp/Data/Services/network_handler.dart';
-import 'package:chatapp/ViewModel/UserViewModel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
@@ -184,56 +183,6 @@ class _ChatPageState extends State<ChatPage> {
             },
             icon: const Icon(Icons.menu, color: Colors.black),
           ),
-          // PopupMenuButton<String>(
-          //   // color: Colors.black,
-          //   icon: const Icon(Icons.menu, color: Colors.black),
-          //   offset: const Offset(-20, 45),
-          //   shape: const RoundedRectangleBorder(
-          //     borderRadius: BorderRadius.all(
-          //       Radius.circular(5.0),
-          //     ),
-          //   ),
-          //   onSelected: (value) {
-          //     if (value == "dangxuat") {
-          //       logout();
-          //     }
-          //     if (value == "New group") {
-          //       Navigator.push(
-          //           context,
-          //           MaterialPageRoute(
-          //               builder: (builder) => const CreateGroup()));
-          //     }
-          //     if (value == "Settings") {
-          //       Navigator.push(
-          //           context,
-          //           MaterialPageRoute(
-          //               builder: (builder) => const MenuScreen()));
-          //     }
-
-          //     // ignore: avoid_print
-          //     print(value);
-          //   },
-          //   itemBuilder: (BuildContext context) {
-          //     return [
-          //       const PopupMenuItem(
-          //         value: 'New group',
-          //         child: Text('Tạo nhóm mới'),
-          //       ),
-          //       const PopupMenuItem(
-          //         value: 'Starred messages',
-          //         child: Text('Tin nhắn quan trọng'),
-          //       ),
-          //       const PopupMenuItem(
-          //         value: 'Settings',
-          //         child: Text('Cài đặt'),
-          //       ),
-          //       const PopupMenuItem(
-          //         value: 'dangxuat',
-          //         child: Text('Đăng xuất'),
-          //       ),
-          //     ];
-          //   },
-          // ),
         ],
       ),
       body: loading

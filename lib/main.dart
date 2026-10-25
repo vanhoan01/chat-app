@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:camera/camera.dart';
 import 'package:chatapp/Model/Model/userModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Navigation/NavigationService.dart';
 import 'package:chatapp/View/Screens/Call/VideoCallScreen.dart';
-import 'package:chatapp/View/Screens/LoadingPage.dart';
+import 'package:chatapp/View/Screens/Pages/LoadingPage.dart';
 import 'package:chatapp/View/Screens/Camera/CameraScreen.dart';
 import 'package:chatapp/View/Screens/Pages/Homescreen.dart';
 import 'package:chatapp/View/Screens/Login/LoginScreen.dart';

@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:chatapp/Model/Model/CallModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Screens/Call/VideoCallScreen.dart';
 import 'package:chatapp/ViewModel/ChatPage/ChatMessagesViewModel.dart';
 import 'package:chatapp/ViewModel/ChatPage/text_time_vm.dart';

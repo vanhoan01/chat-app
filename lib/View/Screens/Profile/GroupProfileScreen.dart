@@ -2,7 +2,7 @@
 
 import 'package:chatapp/Model/Model/ChatModel.dart';
 import 'package:chatapp/Model/Model/ConversationModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Screens/Conversation/ConversationScreen.dart';
 import 'package:chatapp/View/Screens/Group/Add/AddMemberScreen.dart';
 import 'package:chatapp/View/Screens/Pages/Homescreen.dart';

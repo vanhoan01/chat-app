@@ -5,7 +5,7 @@ import 'dart:ui';
 
 import 'package:android_path_provider/android_path_provider.dart';
 import 'package:chatapp/Model/Model/ChatMessagesModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Screens/Image/ImageProfileScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';

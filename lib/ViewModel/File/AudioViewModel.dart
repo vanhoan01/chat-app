@@ -2,7 +2,7 @@
 
 import 'dart:convert';
 import 'package:chatapp/Data/Services/network_handler.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:http/http.dart' as http;
 
 class AudioViewModel {

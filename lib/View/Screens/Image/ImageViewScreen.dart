@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:flutter/material.dart';
 
 class ImageViewScreen extends StatelessWidget {

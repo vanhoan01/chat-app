@@ -3,7 +3,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:chatapp/Data/Services/network_handler.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';

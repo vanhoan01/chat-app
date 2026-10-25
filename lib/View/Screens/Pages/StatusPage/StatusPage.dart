@@ -2,11 +2,11 @@
 
 import 'package:chatapp/Model/Model/OthersStatusModel.dart';
 import 'package:chatapp/Model/Model/userModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:chatapp/View/Screens/Pages/StatusPage/Tabs/FriendRequest.dart';
 import 'package:chatapp/View/Screens/Pages/StatusPage/Tabs/FriendTab.dart';
 import 'package:chatapp/View/Screens/Pages/StatusPage/Tabs/GroupTab.dart';
-import 'package:chatapp/View/Screens/SearchScreen.dart';
+import 'package:chatapp/View/Screens/Search/SearchScreen.dart';
 import 'package:chatapp/ViewModel/UserViewModel.dart';
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;

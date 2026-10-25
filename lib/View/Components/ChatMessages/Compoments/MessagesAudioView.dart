@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:audioplayers/audioplayers.dart';
-import 'package:chatapp/Resources/app_urls.dart';
+import 'package:chatapp/Util/app_urls.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

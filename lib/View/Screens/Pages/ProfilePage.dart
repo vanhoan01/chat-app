@@ -1,14 +1,14 @@
 // ignore_for_file: file_names
 
 import 'package:chatapp/Model/Model/userModel.dart';
-import 'package:chatapp/Resources/app_urls.dart';
-import 'package:chatapp/View/Screens/MenuScreen.dart';
+import 'package:chatapp/Util/app_urls.dart';
+import 'package:chatapp/View/Screens/Profile/Screens/MenuScreen.dart';
 import 'package:chatapp/View/Screens/Profile/Screens/ProfileEdit.dart';
 import 'package:chatapp/View/Screens/Profile/Tabs/SavedTab.dart';
 import 'package:chatapp/View/Screens/Profile/Tabs/FileTab.dart';
 import 'package:chatapp/View/Screens/Profile/Tabs/ImageTab.dart';
 import 'package:chatapp/View/Screens/Profile/Tabs/LikeTab.dart';
-import 'package:chatapp/View/Screens/SearchScreen.dart';
+import 'package:chatapp/View/Screens/Search/SearchScreen.dart';
 import 'package:chatapp/ViewModel/UserViewModel.dart';
 import 'package:flutter/material.dart';
 
